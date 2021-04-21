@@ -199,13 +199,43 @@ a {
 }
 
 .footer {
-    position: fixed;
+    position: sticky;
     bottom: 0;
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.9);
+    padding: 1em 0 0;
 }
 
-.tab-lista {}
+.tab-lista {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1em;
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+}
 
-.tab-item {}
+.tab-item {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.tab-item a {
+    color: #6e6e6e;
+}
+
+.tab-item path {
+    fill: #6e6e6e;
+}
+
+.tab-item svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.tab-item:hover :is(path,
+span) {
+    fill: #FFF;
+    color: #FFF;
+}
