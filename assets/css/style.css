@@ -61,6 +61,7 @@ a {
 .featured {
     position: relative;
     margin-top: -90px;
+    overflow: hidden;
 }
 
 .featured-details {
@@ -69,8 +70,7 @@ a {
     left: 0;
     right: 0;
     text-align: center;
-    background-image: linear-gradient(to top, #000 0%, #000 50%, rgba(0, 0, 0, 0.5) 85%, transparent 100%);
-    background-image: linear-gradient(to top, #000 0%, transparent 100%);
+    background-image: linear-gradient(to top, #000 0%, #000 40%, rgba(0, 0, 0, 0.5) 85%, transparent 100%);
 }
 
 .tags {
@@ -107,3 +107,105 @@ a {
     align-items: center;
     padding-bottom: 2em;
 }
+
+.btn {
+    border: none;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    padding: 5px 1em 5px 0.5em;
+}
+
+.btn.rad {
+    border-radius: 2px;
+}
+
+.btn::before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.btn-secnd {
+    border: none;
+    background: none;
+    color: #FFF;
+    font-size: 1.1em;
+    min-width: 100px;
+    cursor: pointer;
+}
+
+.btn-secnd::before {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.icon-plus::before {
+    background: url('../../images/icons/plus.svg');
+}
+
+.icon-info::before {
+    background: url('../../images/icons/info.svg');
+}
+
+.icon-play::before {
+    background: url('../../images/icons/play.svg');
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lista {
+    padding: 0 1em;
+}
+
+.lista-contenido {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.lista-item {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.lista-item:first-child {
+    margin-left: 0;
+}
+
+.creditos-est {
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+.creditos-est.apa {
+    background: #212429;
+    font-size: 11px;
+    color: white;
+}
+
+.creditos a.apa {
+    color: #F865B0;
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.tab-lista {}
+
+.tab-item {}
