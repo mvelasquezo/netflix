@@ -278,6 +278,10 @@ span) {
     display: none;
 }
 
+.d-bi {
+    display: inline-block;
+}
+
 .negrilla {
     font-weight: bold;
 }

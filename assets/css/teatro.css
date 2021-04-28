@@ -68,7 +68,12 @@
 .teatro-elenco {
     margin: 0;
     margin-top: 20px;
+}
+
+.p-teatro-elenco {
+    display: inline-block;
     width: 75%;
+    margin: 0;
 }
 
 .truncate {
@@ -80,4 +85,8 @@
 .teatro-dirigido-por {
     margin: 0;
     margin-top: 10px;
+}
+
+.anc-black {
+    color: #666;
 }
