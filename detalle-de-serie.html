@@ -1,21 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-50x50.png">
-    <title>Netflix</title>
-    <style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./images/favicon-netflix.png" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-    </style>
+    <link rel="stylesheet" href="assets/css/spinner.css" />
+    <link rel="stylesheet" href="assets/css/anc-cir.css" />
+    <link rel="stylesheet" href="assets/css/titulo.css" />
+    <link rel="stylesheet" href="assets/css/teatro.css" />
+    <title>NetflixApp::Gt</title>
 </head>
 
 <body>
+    <div class="contenedor-est centrado">
+        <div class="spinner apa ani">
+        </div>
+    </div>
 
-    Matrix: Recargado 99% de coincidencia 2003 2h 18m Reproducir Descargar Neo, Morpheus, Trinity y el resto de la tripulación continúan en la lucha contra las máquinas que han esclavizado a la raza humana. Ahora más humanos han sido despertados e intentan
-    vivir en el mundo real. A medida que aumentan en número, la batalla se acerca a Sion, la última ciudad real en el mundo y centro de la resistencia humana. Y tiene poco tiempo, muy poco tiempo... Elenco: Keanu Reeves, Laurence Fishburne, Carrie-Anne
-    Mose, Monica Bellucci Dirigido por: Lilly Wachowski, Lana Wachowski Mi lista Calificar Compartir Más similares Inicio Próximamente Buscar Descargas
+    <header>
+        <div class="div-tit-est">
+
+            <a href="/index.html" class="anc-cir-est apa">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 5.92969L6.92969 12L13 18.0703L14.5 16.5703L9.92969 12L14.5 7.42969L13 5.92969Z"/>
+                </svg>
+            </a>
+
+            <!--a href="detalle-de-serie.html" class="anc-cir-est apa anc-barr-est-resp">
+                <span class="icon-spinner11"></span>
+            </a-->
+        </div>
+    </header>
+    <div class="teatro">
+        <div class="teatro-image">
+            <img class="imgResponsive" src="images/pls221b8pyo31.png" alt="Matrix" />
+        </div>
+        <div class="teatro-contenido">
+            <div class="teatro-titulo">
+                <h1 class="t-a-left">Matrix: Recargado</h1>
+            </div>
+            <div class="teatro-featured">
+                <div class="teatro-coincidencia">
+                    <h3>99% de coincidencia</h3>
+                </div>
+                <div>
+                    <span class="anyo">2003</span>
+                    <span class="clasificacion">R</span>
+                    <span class="duracion">2h 18m</span>
+                    <span class="definicion">HD</span>
+                </div>
+            </div>
+            <div class="teatro-actions">
+                <button class="btn rad negrilla responsive mano icon-play">Reproducir</button>
+                <button class="btn btn-dark rad negrilla responsive mano" style="margin-top: 10px;">
+                    <svg style="margin-right: 10px;" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11 2C10.448 2 10 2.448 10 3V11H6L12 17L18 11H14V3C14 2.448 13.552 2 13 2H11ZM2 20V22H22V20H2Z"/>
+                    </svg>  
+                    Descargar
+                </button>
+            </div>
+            <div class="teatro-description">
+                Neo, Morpheus, Trinity y el resto de la tripulación continúan en la lucha contra las máquinas que han esclavizado a la raza humana. Ahora más humanos han sido despertados e intentan vivir en el mundo real. A medida que aumentan en número, la batalla se
+                acerca a Sion, la última ciudad real en el mundo y centro de la resistencia humana. Y tiene poco tiempo, muy poco tiempo...
+            </div>
+            <div class="teatro-elenco truncate">
+                Elenco: Keanu Reeves, Laurence Fishburne, Carrie-Anne Mose, Monica Bellucci
+            </div>
+            <div class="teatro-dirigido-por">
+                Dirigido por: Lilly Wachowski, Lana Wachowski
+            </div>
+        </div>
+    </div>
+    Mi lista Calificar Compartir Más similares Inicio Próximamente Buscar Descargas
+    <script src="/assets/js/detalle.js" type="text/javascript"></script>
 </body>
 
 </html>

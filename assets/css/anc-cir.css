@@ -1,0 +1,29 @@
+.anc-cir-est,
+.anc-cir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    height: 48px;
+    width: 48px;
+    margin: 0;
+}
+
+.anc-cir-est.apa,
+.anc-cir.apa {
+    cursor: pointer;
+    border: 0;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.anc-cir-est.apa:hover,
+.anc-cir:hover {
+    background: rgba(187, 187, 187, 0.1);
+}
+
+.anc-cir-est.apa path {
+    fill: #FFF;
+}

@@ -1,0 +1,83 @@
+.t-a-left {
+    text-align: left;
+}
+
+.imgResponsive {
+    width: 100%;
+    height: auto;
+}
+
+.teatro {
+    width: 100%;
+    /*text-align: center;*/
+}
+
+.teatro-titulo h1 {
+    margin: 0;
+}
+
+.teatro-contenido {
+    padding: 10px;
+}
+
+.teatro-featured {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teatro-coincidencia {
+    font-size: 0.9em;
+    color: #71D074;
+}
+
+.anyo,
+.duracion {
+    color: #666;
+}
+
+.clasificacion {
+    margin: 0 15px 0 10px;
+    border-radius: 2px;
+    background: #4D4D4D;
+    font-weight: bold;
+    padding: 8px 6px 5px 5px;
+}
+
+.definicion {
+    border-radius: 2px;
+    border: solid 1px #666;
+    padding: 8px 6px 5px 5px;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.teatro-description {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+}
+
+.teatro-elenco,
+.teatro-dirigido-por {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.teatro-elenco {
+    margin: 0;
+    margin-top: 20px;
+    width: 75%;
+}
+
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.teatro-dirigido-por {
+    margin: 0;
+    margin-top: 10px;
+}
