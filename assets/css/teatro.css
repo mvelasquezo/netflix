@@ -87,6 +87,14 @@
     margin-top: 10px;
 }
 
+.teatro-featured-actions {
+    margin-top: 30px;
+}
+
+.teatro-featured-actions .btn-secnd {
+    min-width: auto;
+}
+
 .anc-black {
     color: #666;
 }

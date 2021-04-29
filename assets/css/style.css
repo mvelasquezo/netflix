@@ -161,6 +161,23 @@ a {
     color: #FFF;
 }
 
+.btn-tiny {
+    font-size: 0.85em;
+}
+
+
+/*.btn-tiny:hover {
+    background-color: #2B2B2B;
+}*/
+
+.btn-color-dark {
+    color: #666;
+}
+
+.btn-color-dark:hover {
+    color: #FFF;
+}
+
 .btn-dark path {
     fill: #FFF;
 }
@@ -179,6 +196,14 @@ a {
 
 .icon-download::before {
     background: url('../../images/icons/download.svg');
+}
+
+.icon-like::before {
+    background: url('../../images/icons/like.svg');
+}
+
+.icon-email-send::before {
+    background: url('../../images/icons/email-send.svg');
 }
 
 .main {
@@ -203,6 +228,11 @@ a {
 
 .lista-item:first-child {
     margin-left: 0;
+}
+
+.lista-titulo-bor-rojo {
+    border-top: solid 5px #D22F26;
+    padding-top: 15px;
 }
 
 .creditos-est {
