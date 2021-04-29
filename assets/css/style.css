@@ -130,7 +130,7 @@ a {
     border-radius: 2px;
 }
 
-.btn::before {
+.btn:not(.without-icon)::before {
     content: '';
     display: inline-block;
     width: 25px;
@@ -272,6 +272,13 @@ span) {
     left: 50%;
     top: 50%;
     transform: translate( -50%, -50%);
+}
+
+.contenedor-est.centrado-t25 {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate( -50%, -25%);
 }
 
 .d-none {

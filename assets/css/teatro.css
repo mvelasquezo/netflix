@@ -90,3 +90,12 @@
 .anc-black {
     color: #666;
 }
+
+@media (max-width: 380px) {
+    .h3-responsive {
+        font-size: 1em;
+    }
+    .attr-responsive {
+        width: 80%;
+    }
+}
