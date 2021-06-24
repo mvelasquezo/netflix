@@ -331,7 +331,7 @@ span) {
     }
 }
 
-@media screen and (min-width: 380px) {
+@media screen and (min-width: 768px) {
     .vid {
         max-width: 100%;
         width: 100%;
