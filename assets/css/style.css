@@ -24,8 +24,6 @@ a {
 }
 
 .vid {
-    /*max-width: 100%;
-    width: 100%;*/
     height: auto;
     min-height: 300px;
 }
@@ -330,5 +328,12 @@ span) {
 @media screen and (max-width: 768px) {
     .tags {
         font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 380px) {
+    .vid {
+        max-width: 100%;
+        width: 100%;
     }
 }

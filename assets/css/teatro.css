@@ -99,7 +99,7 @@
     color: #666;
 }
 
-@media (max-width: 380px) {
+@media screen and (max-width: 380px) {
     .h3-responsive {
         font-size: 1em;
     }
