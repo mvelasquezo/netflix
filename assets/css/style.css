@@ -24,8 +24,8 @@ a {
 }
 
 .vid {
-    max-width: 100%;
-    width: 100%;
+    /*max-width: 100%;
+    width: 100%;*/
     height: auto;
     min-height: 300px;
 }
@@ -42,7 +42,7 @@ a {
     padding: 0;
     margin: 0;
     display: grid;
-    grid-auto-columns: 100px;
+    /*grid-auto-columns: 100px;*/
     grid-auto-flow: column;
     justify-content: space-around;
 }
@@ -230,6 +230,10 @@ a {
     margin-left: 0;
 }
 
+.lista-item a img {
+    width: 192px;
+}
+
 .lista-titulo-bor-rojo {
     border-top: solid 5px #D22F26;
     padding-top: 15px;
@@ -321,4 +325,10 @@ span) {
 
 .negrilla {
     font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .tags {
+        font-size: 10px;
+    }
 }
