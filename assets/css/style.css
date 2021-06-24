@@ -207,7 +207,7 @@ a {
 .main {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
 }
 
 .lista {
@@ -230,6 +230,11 @@ a {
 
 .lista-item a img {
     width: 192px;
+}
+
+.lista-titulo {
+    margin: 0;
+    margin-block-end: 10px;
 }
 
 .lista-titulo-bor-rojo {
