@@ -23,6 +23,10 @@ a {
     text-decoration: none;
 }
 
+.pos-rel {
+    position: relative;
+}
+
 .vid {
     height: auto;
     min-height: 300px;
