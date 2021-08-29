@@ -1,0 +1,48 @@
+.logo-netflix {
+    height: 250px;
+    width: 60px;
+    position: relative;
+} 
+
+.logo-netflix.apa
+, .logo-netflix.apa::before {
+    background-color: #B1060F;
+}
+
+.logo-netflix.apa::after {
+    background-color: #000;
+}
+
+.logo-netflix::before {
+    height: 250px;
+    width: 60px;
+    position: absolute;
+    content: '';
+    left: 90px;
+}
+
+.logo-netflix::after {
+    height: 20px;
+    width: 175px;
+    position: absolute;
+    content: '';
+    left: -15px;
+    bottom: -10px;
+    border-radius: 50%;
+}
+
+.logo-netflix span {
+    height: 250px;
+    width: 60px;
+    position: absolute;
+    content: '';
+    left: 46px;
+    transform: skew(20deg);
+    
+}
+
+.logo-netflix.apa span {
+    background-color: #E50913;
+    box-shadow: 0 0 10px -4px #000;
+}
+
